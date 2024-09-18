@@ -2,20 +2,23 @@ body {
     background-color: #030f00;
   }
 nav {
-    text-align: right;
+    text-align: center;
+    font-size: 40px;
+    background-color: #40aa0d;
+    color: #fff    ;
 }
 
 h1 {
     text-align: center;
-    margin-top: 115px;
+    margin-right: 50px;
+    margin-left: 700px;
     font-size: 85px;
-    color:rgb(0, 0, 0);
-    background-color:antiquewhite
+    color:rgb(255, 255, 255);
     }
 
 h2 { 
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #40aa0d;
     color:black;
     font-size: 40px;
 }
