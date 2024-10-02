@@ -26,8 +26,6 @@ header .otsikko {
 header nav ul {
     display: block;
     margin: 10px auto;
-    /*width: fit-content;*/
-
 }
 
 header nav ul li {
@@ -68,9 +66,6 @@ header .yhteyttä {
 .valinta {
     display: block;
 }
-/*.valinta2 {
-    padding: 0 25px;
-}*/
 
 /* Kuva */
 .img-pt {
@@ -101,11 +96,30 @@ footer {
     text-align: center;
 }
 
+/* Yhteydenottolomake*/
 
+.lomake {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #003600;
+}
+.yhteydenottolomake {
+    display: flex;
+}
+.lomake-vasen {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.lomake-oikea {
+    flex-basis: 60%;
+    padding: 40px;
+    background-color: #40aa0d;
+}
 
 /*Työpöytä koko*/ /*Pienempi näyttö*/
 
 @media only screen and (min-width: 1000px) {
+
     /*Otsikko*/
     header .otsikko {
         font-size: 40px;
