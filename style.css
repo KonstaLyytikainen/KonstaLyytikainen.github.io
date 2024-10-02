@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 header .yhteyttä {
-    display: block;
+    display: none;
 }
 
 /* Esittely */
@@ -62,6 +62,9 @@ header .yhteyttä {
     background-color: #003600;
     padding-bottom: 10px;
 }
+.valinta {
+    display: block;
+}
 
 /* Kuva */
 .img-pt {
@@ -69,8 +72,9 @@ header .yhteyttä {
     border-radius: 50%;
     display: block;
     padding-top: 5px;
-
 }
+
+
 /*palauteboksi*/
 .palaute {
     background-color: #003600;
@@ -85,14 +89,10 @@ footer {
     color: white;
     text-align: center;
 }
-.valinta {
-    display: none;
-}
 
 
 
-
-/*Työpöytä koko*/
+/*Työpöytä koko*/ /*Pienempi näyttö*/
 
 @media only screen and (min-width: 1000px) {
     /*Otsikko*/
@@ -160,3 +160,19 @@ main {
     margin-top: 20px;
 }
 }
+
+/* Työpöytä koko - Isompi näyttö*/
+
+@media only screen and (min-width: 1350px) {
+    .img-pt {
+        max-width: 35%;
+        border-radius: 50%;
+        display: block;
+        margin-left: 900px;
+        margin-top: -500px;
+}
+}
+
+
+
+
