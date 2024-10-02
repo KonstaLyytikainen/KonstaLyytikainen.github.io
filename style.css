@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 header .yhteyttä {
-    display: none;
+    display: block;
 }
 
 /* Esittely */
