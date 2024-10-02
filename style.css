@@ -163,12 +163,12 @@ main {
 
 /* Työpöytä koko - Isompi näyttö*/
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1300px) {
     .img-pt {
         max-width: 35%;
         border-radius: 50%;
         display: block;
-        margin-left: 900px;
+        margin-left: 1100px;
         margin-top: -500px;
 }
 }
