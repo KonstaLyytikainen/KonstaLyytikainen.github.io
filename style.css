@@ -2,6 +2,7 @@
     text-decoration: none;
 }
 
+
 /*Header*/
 body {
     background-color: #030f00;
@@ -52,8 +53,7 @@ header .yhteyttä {
     background-color: #40aa0d;
     font-size: 20px;
     text-align: center;
-    color:#fff
-    
+    color:#fff;  
 }
 .teksti {
     width: 100%;
