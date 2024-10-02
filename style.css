@@ -94,6 +94,11 @@ footer {
     background-color: #40aa0d;
     color: white;
     text-align: center;
+    position:sticky;
+    bottom:5px;
+}
+.footer {
+    color:#fff;
 }
 
 /* Yhteydenottolomake*/
@@ -102,6 +107,7 @@ footer {
     width: 80%;
     margin: 50px auto;
     background-color: #003600;
+    color: white;
 }
 .yhteydenottolomake {
     display: flex;
