@@ -105,7 +105,10 @@ footer {
     color: white;
     text-align: center;
     position:sticky;
-    bottom:5px;
+    bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
 }
 .footer {
     color:#fff;
