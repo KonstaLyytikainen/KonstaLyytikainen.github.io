@@ -65,6 +65,7 @@ header .yhteyttä {
 }
 .valinta {
     display: block;
+    color: white;
 }
 
 /* Kuva */
@@ -87,6 +88,7 @@ header .yhteyttä {
     color: white;
     padding-bottom: 10px;
     text-align: center;
+    margin-top: 10px;
 }
 
 /* Footer / Alapalkki */
@@ -101,26 +103,6 @@ footer {
     color:#fff;
 }
 
-/* Yhteydenottolomake*/
-
-.lomake {
-    width: 80%;
-    margin: 50px auto;
-    background-color: #003600;
-    color: white;
-}
-.yhteydenottolomake {
-    display: flex;
-}
-.lomake-vasen {
-    flex-basis: 60%;
-    padding: 40px 60px;
-}
-.lomake-oikea {
-    flex-basis: 60%;
-    padding: 40px;
-    background-color: #40aa0d;
-}
 
 /*Työpöytä koko*/ /*Pienempi näyttö*/
 
@@ -182,38 +164,69 @@ main {
     text-align: center;
     margin-top: -380px;
 }
-.valinta2 {
-    padding: 0px;
-}
+
 /* Kuva */
 .img-pt {
     max-width: 70%;
     border-radius: 50%;
     display: block;
-    margin-left: 700px;
+    margin-left: 120%;
     margin-top: -550px;
 }
 .palaute {
-    display: inline-block;
-    max-width: 500px;
-    margin-left: 370px;
-    margin-top: 40px;
-    width: fit-content;
+    display: block;
+    margin-top: 60px;
 }
 }
+
+/* Työpöytä - Keskikoko */
+@media only screen and (min-width: 1360px) {
+    .teksti {
+        font-size: 17px;
+    }
+    .valinta {
+        margin-top: -420px;
+        color: white;
+    }
+    .palaute {
+        display: block;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+
 
 /* Työpöytä koko - Isompi näyttö*/
 
-@media only screen and (min-width: 1300px) {
-    .img-pt {
-        max-width: 35%;
-        border-radius: 50%;
-        display: block;
-        margin-left: 850px;
-        margin-top: -600px;
+@media only screen and (min-width: 1650px) {
+
+    /*Esittely osio*/
+main {
+    margin-top: -50px;
+}
+    /*Slogan "Tule mukaan...*/
+ .slogan {
+    font-size: 60px;
+    }
+    /*Teksti*/
+
+.teksti {
+    font-size: 24px;
+}
+.valinta {
+    margin-top: -600px;
+    color: white;
+
+}
+
+/* Kuva */
+.img-pt {
+    max-width: 70%;
+    margin-top: -550px;
 }
 .palaute {
-    width: fit-content;
+    font-size: 25px;
+    margin-top: 80px;
 }
 }
 
