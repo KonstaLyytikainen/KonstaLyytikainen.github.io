@@ -204,14 +204,10 @@ main {
     display: block;
     margin-top: 20px;
 }
+.footer {
+    font-size: 20px;
 }
-.kartta {
-    display: flex;
-    color: white;
-    margin-left: 600px;
-    margin-top: -280px;
-    padding-bottom: 50px;
-    max-width: 80px;
+
 }
 /* Työpöytä - Keskikoko */
 @media only screen and (min-width: 1360px) {
@@ -231,6 +227,11 @@ main {
         display: block;
         margin-top: 20px;
         font-size: 20px;
+    }
+    .footer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 30px;
     }
 }
 
