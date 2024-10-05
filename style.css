@@ -59,7 +59,7 @@ header .yhteyttä {
     width: 100%;
     color: white;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     background-color: #003600;
     padding-bottom: 10px;
 }
@@ -175,7 +175,7 @@ main {
 }
 .palaute {
     display: block;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 }
 
@@ -190,7 +190,7 @@ main {
     }
     .palaute {
         display: block;
-        margin-top: 40px;
+        margin-top: 20px;
         font-size: 20px;
     }
 }
@@ -211,12 +211,19 @@ main {
     /*Teksti*/
 
 .teksti {
-    font-size: 24px;
+    font-size: 20px;
 }
 .valinta {
     margin-top: -600px;
     color: white;
 
+}
+.tarjoan {
+    color:#fff;
+    background-color: #003600;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 
 /* Kuva */
@@ -226,7 +233,8 @@ main {
 }
 .palaute {
     font-size: 25px;
-    margin-top: 80px;
+    margin-top: 20px;
+
 }
 }
 
