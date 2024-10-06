@@ -52,7 +52,8 @@ header .yhteyttä {
     background-color: #40aa0d;
     font-size: 20px;
     text-align: center;
-    color:#fff;  
+    color:#fff;
+    margin-bottom: 5px;  
 }
 .teksti {
     width: 100%;
