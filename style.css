@@ -2,7 +2,6 @@
     text-decoration: none;
 }
 
-
 /*Header*/
 body {
     background-color: #030f00;
@@ -84,14 +83,7 @@ header .yhteyttä {
 }
 
 /*palauteboksi*/
-.palaute {
-    background-color: #003600;
-    color: white;
-    padding-bottom: 10px;
-    text-align: center;
-    margin-top: 10px;
-}
-.palaute1 {
+.palaute, .palaute1 {
     background-color: #003600;
     color: white;
     padding-bottom: 10px;
@@ -104,7 +96,7 @@ footer {
     background-color: #40aa0d;
     color: white;
     text-align: center;
-    position:sticky;
+    position: sticky;
     bottom: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -125,8 +117,6 @@ footer {
     padding-bottom: 50px;
 }
 
-
-
 /*Työpöytä koko*/ /*Pienempi näyttö*/
 
 @media only screen and (min-width: 1000px) {
@@ -140,7 +130,7 @@ footer {
         border-right: 3px solid #fff;
         float: left;
     }
-/*linkit*/
+    /*linkit*/
     header nav ul {
         margin: 50px 20px;
         float: left;
@@ -151,7 +141,7 @@ footer {
         font-size: 16px;
         color: white;
         line-height: 60px;
-        border: 2px solid #ffff;        ;
+        border: 2px solid #ffff;
         float: right;
         padding: 0px 20px;
         margin-top: 25px;
@@ -159,56 +149,49 @@ footer {
     }
 
     /*Esittely osio*/
-main {
-    margin-top: -50px;
-}
+    main {
+        margin-top: -50px;
+    }
     /*Slogan "Tule mukaan...*/
- .slogan {
-    background-color: #40aa0d;
-    font-size: 30px;
-    display: block;
-    max-width: 50%;
-    margin-left: 50px;
-    margin-top: 100px;
-    color:#fff;
-    text-align: center;
-
+    .slogan {
+        background-color: #40aa0d;
+        font-size: 30px;
+        display: block;
+        max-width: 50%;
+        margin-left: 50px;
+        margin-top: 100px;
+        color:#fff;
+        text-align: center;
     }
     /*Teksti*/
+    .teksti {
+        font-size: 17px;
+        max-width: 50%;
+        margin-left: 50px;
+    }
+    .valinta {
+        display:block;
+        text-align: center;
+        margin-top: -380px;
+    }
 
-.teksti {
-    font-size: 17px;
-    max-width: 50%;
-    margin-left: 50px;
-   /* margin-bottom: 0px;*/
-}
-.valinta {
-    display:block;
-    text-align: center;
-    margin-top: -380px;
-}
-
-/* Kuva */
-.img-pt {
-    max-width: 70%;
-    border-radius: 50%;
-    display: block;
-    margin-left: 120%;
-    margin-top: -550px;
-}
-.palaute {
-    display: block;
-    margin-top: 20px;
-}
-.palaute1 {
-    display: block;
-    margin-top: 20px;
-}
-.footer {
-    font-size: 20px;
+    /* Kuva */
+    .img-pt {
+        max-width: 70%;
+        border-radius: 50%;
+        display: block;
+        margin-left: 120%;
+        margin-top: -550px;
+    }
+    .palaute {
+        display: block;
+        margin-top: 20px;
+    }
+    .footer {
+        font-size: 20px;
+    }
 }
 
-}
 /* Työpöytä - Keskikoko */
 @media only screen and (min-width: 1360px) {
     .teksti {
@@ -223,11 +206,6 @@ main {
         margin-top: 20px;
         font-size: 20px;
     }
-    .palaute1 {
-        display: block;
-        margin-top: 20px;
-        font-size: 20px;
-    }
     .footer {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -235,48 +213,43 @@ main {
     }
 }
 
-
 /* Työpöytä koko - Isompi näyttö*/
-
 @media only screen and (min-width: 1650px) {
 
     /*Esittely osio*/
-main {
-    margin-top: -50px;
-}
+    main {
+        margin-top: -50px;
+    }
     /*Slogan "Tule mukaan...*/
- .slogan {
-    font-size: 60px;
+    .slogan {
+        font-size: 60px;
     }
     /*Teksti*/
-
-.teksti {
-    font-size: 20px;
-}
-.valinta {
-    margin-top: -600px;
-    color: white;
-
-}
-.tarjoan {
-    color:#fff;
-    background-color: #003600;
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-/* Kuva */
-.img-pt {
-    max-width: 70%;
-    margin-top: -550px;
-}
-.palaute1 {
-    background-color: #003600;
-    color: white;
-    padding-bottom: 10px;
-    text-align: center;
-    margin-top: 300px;
-    font-size: 25px;
-}
+    .teksti {
+        font-size: 20px;
+    }
+    .valinta {
+        margin-top: -600px;
+        color: white;
+    }
+    .tarjoan {
+        color:#fff;
+        background-color: #003600;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    /* Kuva */
+    .img-pt {
+        max-width: 70%;
+        margin-top: -550px;
+    }
+    .palaute1 {
+        background-color: #003600;
+        color: white;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 300px;
+        font-size: 25px;
+    }
 }
