@@ -72,6 +72,12 @@ header .yhteyttä {
     display: block;
     color: white;
 }
+.tarjoan {
+    color:#fff;
+    background-color: #003600;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 /* Kuva */
 .img-pt {
@@ -80,12 +86,7 @@ header .yhteyttä {
     display: block;
     padding-top: 5px;
 }
-.tarjoan {
-    color:#fff;
-    background-color: #003600;
-    text-align: center;
-    padding-bottom: 20px;
-}
+
 
 /*palauteboksi*/
 .palaute, .palaute1 {
@@ -109,17 +110,6 @@ footer {
 }
 .footer {
     color:#fff;
-}
-
-.sijainti {
-    text-align: center;
-}
-.kartta {
-    display: flex;
-    color: white;
-    margin-left: 1000px;
-    margin-top: -380px;
-    padding-bottom: 50px;
 }
 
 /*Työpöytä koko*/ /*Pienempi näyttö*/
