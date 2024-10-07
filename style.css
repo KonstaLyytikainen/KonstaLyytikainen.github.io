@@ -224,6 +224,47 @@ footer {
         font-size: 20px;
     }
     .valinta {
+        margin-top: -500px;
+        color: white;
+    }
+    .tarjoan {
+        color:#fff;
+        background-color: #003600;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    /* Kuva */
+    .img-pt {
+        max-width: 70%;
+        margin-top: -550px;
+    }
+    .palaute1 {
+        background-color: #003600;
+        color: white;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 300px;
+        font-size: 25px;
+    }
+}
+
+/* Työpöytä koko - Isoin näyttö*/
+@media only screen and (min-width: 1850px) {
+
+    /*Esittely osio*/
+    main {
+        margin-top: -50px;
+    }
+    /*Slogan "Tule mukaan...*/
+    .slogan {
+        font-size: 60px;
+    }
+    /*Teksti*/
+    .teksti {
+        font-size: 20px;
+    }
+    .valinta {
         margin-top: -600px;
         color: white;
     }
